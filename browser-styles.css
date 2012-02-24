@@ -1,0 +1,164 @@
+/*---------------- BROWSER DETECTOR -----------------*/
+#page {
+
+}
+
+#page-wrap {
+width: 975px;
+margin: 0 auto;
+}
+
+#content {
+width: 935px;
+padding: 20px;
+}
+
+.bt {
+font-family: arial;
+font-size: 16px;
+color: #555;	
+}
+
+.bt strong{
+color: #555;
+font-weight: 700;	
+}
+
+.bt label{
+color: #333;
+margin-bottom: 5px;
+display: block	
+}
+
+.btForm input {
+width: 100%;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+border: 1px solid #D1D1D1;
+margin-bottom: 10px;
+padding: 10px 0px;
+font-size: 16px;
+color: #555;
+font-weight: 700;
+}
+
+.btForm input[type="submit"] {
+border-color: #066803;
+font-size: 20px;
+color: white;
+cursor: pointer;
+margin-top: 10px;
+background: #066803;
+background: -webkit-linear-gradient(top, #11B200 1%,#066803  100%);
+background: -moz-linear-gradient(top, #11B200 0%, #066803  100%);
+background: -o-linear-gradient(top, #11B200 0%,#066803  100%);
+background: -ms-linear-gradient(top, #11B200 0%,#066803  100%);
+background: linear-gradient(top, #11B200 0%,#066803  100%);
+text-shadow: 1px 1px #555;
+-moz-box-shadow: 0px 0px 5px 5px #d1d1d1;
+-webkit-box-shadow: 0px 0px 5px 5px #d1d1d1;
+box-shadow: 0px 0px 5px 5px #d1d1d1;
+}
+
+.btForm input[type="submit"]:hover {
+border-color: #066803;
+background: #11B200;
+text-shadow: 0px 0px white;
+-moz-box-shadow: inset 0px 0px 15px #5a2049;
+-webkit-box-shadow: inset 0px 0px 15px #5a2049;
+box-shadow: inset 0px 0px 15px #5a2049;
+}
+
+
+.btForm p {
+margin: 0;
+}
+
+.btDiv {
+padding: 20px;
+width: 300px;
+background: #EEE;
+border: 2px solid #D1D1D1;
+background: url(img/brushed_alu.png);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 2px 2px 15px 3px #ccc;
+-moz-box-shadow: 2px 2px 15px 3px #ccc;
+box-shadow: 2px 2px 15px 3px #ccc;
+}
+
+.btForm {
+float: right;
+}
+
+.btData {
+display:none;
+}
+
+.browserTest {
+margin-bottom: 20px;
+}
+
+.browserTest td {
+padding: 5px;
+color: #5A2049;
+font-size: 14px;
+}
+
+#btTableBrowser{
+font-size: 24px;
+padding: 20px 0px 20px 70px;
+margin-bottom: 13px;
+}
+
+.c-browser {background: url(img/chrome.png) no-repeat;}
+.s-browser {background: url(img/safari.png) no-repeat;}
+.f-browser {background: url(img/firefox.png) no-repeat;}
+.i-browser {background: url(img/ie.png) no-repeat;}
+.o-browser {background: url(img/opera.png) no-repeat;}
+
+.btQa {
+float: left;
+width: 595px;
+margin-right: 20px;
+}
+
+.btQa div {
+padding-bottom: 10px;
+border-bottom: 1px solid #d1d1d1;
+margin-bottom: 20px;
+padding-left: 50px;		
+}
+
+.btQa h1 {
+color: #333;
+font-size: 36px;
+margin-bottom: 20px;
+background: url(img/arrow.png) no-repeat;
+padding-left: 50px;
+}
+
+.btQa h3 {
+color: #333;
+font-size: 24px;
+margin-bottom: 10px;
+padding-left: 50px;
+margin-left: -50px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+}
+
+.btQa p {
+font-size: 16px;
+margin-bottom: 10px;
+display: none;
+}
+
+.btQa h3:hover {
+	cursor: pointer;
+	background: url(img/tiny-arrow.png) no-repeat 20px 0px;	
+}
+
+
